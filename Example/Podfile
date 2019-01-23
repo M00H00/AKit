@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'AKit_Example' do
+  pod 'AKit', :path => '../'
+
+  target 'AKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
