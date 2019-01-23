@@ -1,0 +1,30 @@
+{
+  "name": "AKit",
+  "version": "1",
+  "summary": "A short description of AKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/M00H00/AKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mh_doit@163.com": "mh_doit@163.com"
+  },
+  "source": {
+    "git": "https://github.com/M00H00/AKit.git",
+    "tag": "1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AKit/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ],
+    "CTMediator": [
+
+    ]
+  }
+}
