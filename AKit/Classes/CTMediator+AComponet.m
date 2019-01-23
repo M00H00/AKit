@@ -14,7 +14,7 @@
     NSMutableDictionary *dic = [[NSMutableDictionary alloc] init];
     [dic setValue:name forKey:@"name"];
     [dic setValue:@(age) forKey:@"age"];
-    return [self performTarget:@"AViewController" action:@"infoAction" params:dic shouldCacheTarget:true];
+    return [self performTarget:@"BViewController" action:@"infoAction" params:dic shouldCacheTarget:true];
 }
 
 @end
